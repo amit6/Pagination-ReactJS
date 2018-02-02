@@ -1,0 +1,54 @@
+.pagination-wrapper{
+	display: flex;
+    flex-direction: column;
+}
+.pagination-container{
+	float: left;
+}
+.page-container.active{
+	display: flex;
+    flex-wrap: wrap;
+}
+.page-container.not-active{
+	display: none;
+}
+.card-container{
+	height: 300px;
+    width: 300px;
+    border: 2px solid #dfc3c3;
+    margin: 45px 0 10px 45px;
+}
+.pagination-buttons{
+	display: flex;
+    justify-content: space-around;
+}
+.button-nav{
+	display: flex;
+}
+.button-nav ul{
+	display: flex;
+	margin: 0;
+}
+.button-nav li{
+	list-style: none;
+}
+.button-nav li a{
+    margin: 5px;
+}
+.button-nav li a.active{
+	color: #fff;
+    background: #ddba0b;
+    border-radius: 30px;
+    display: inline-block;
+}
+.button-nav a{
+    width: 32px;
+    height: 32px;
+    padding: 10px 4px 0px 4px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+a.previous.not-active, a.next.not-active{
+    display: none;
+}
