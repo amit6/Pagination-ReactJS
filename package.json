@@ -1,11 +1,24 @@
 {
   "name": "pagination",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagination Plugin",
   "main": "build.js",
   "scripts": {
     "start": "webpack-dev-server --open"
   },
   "author": "Amit",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit6/Pagination-ReactJS.git"
+  },
+  "keywords": [
+    "ReactJS",
+    "ES6",
+    "Pagination"
+  ],
+  "bugs": {
+    "url": "https://github.com/amit6/Pagination-ReactJS/issues"
+  },
+  "homepage": "https://github.com/amit6/Pagination-ReactJS#readme"
 }
